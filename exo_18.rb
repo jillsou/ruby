@@ -1,11 +1,13 @@
-i = 0
+a=01
 
-if i < 9 
-  print "jean.dupont.0#{i+1} @email.fr"
-i += 1
+
+50.times do
+ puts "jean.dupont.#{a}@email.fr"  
+
+ a+=1
+
+
 end
+
+
   
-else if 
-  print "jean.dupont.#{i+1}@email.fr"
-
-end
